@@ -1,33 +1,91 @@
 body{
-    font-family: "Lobster", sans-serif; 
+    font-family: "Lobster", sans-serif;
     font-weight: 400;
     font-size: normal;
     margin: 35px;
     background-color: lightslategrey
 }
 
-li{
-    list-style: none;
-    padding: 10px;
+p{
+    text-align: center
 }
 h1{
     text-align: center;
     font-style: oblique;
-    font-size: 3em;
-    max-width: auto ; 
-    border: 1px solid black; 
-    padding: 25px; 
-    border-radius: 25px; 
-    background-color:white ;
-    box-shadow: 20px 5px 25px
+    font-size 3em;
+    border: 1px solid black;
+    border-radius: 25px;
+    background-color: white;
+    box-shadow: 20px 5px 25px;
+    padding: 10px;
+   
 }
 
-section{
-    max-width: 800px; 
-    border: 1px solid black; 
-    padding: 25px; 
-    border-radius: 25px; 
+.info{
+    max-width: 800px;
+    border: 1px solid black;
+    padding: 25px;
+    border-radius: 25px;
     background-color: white;
-    box-shadow: 25px 10px 50px; 
+    float: left;
+    width: 40%;
     margin-bottom: 50px
 }
+
+.info h2{
+    text-align: center;   
+}
+
+
+.attraction{
+    max-width: 800px;
+    border: 1px solid black;
+    padding: 25px;
+    border-radius: 25px;
+    background-color: white;
+    float: right;
+    width:40%;
+    margin-bottom: 50px
+}
+
+.attraction h2{
+    text-align: center
+}
+
+
+
+.data{
+    max-width: 800px;
+    border: 1px solid black;
+    padding: 25px;
+    border-radius: 25px;
+    background-color: white;
+    float: left;
+    width: 40%;
+    margin-bottom: 50px;
+}
+
+.data h2{
+    text-align: center
+}
+
+footer{
+    clear: both;
+    max-width: 800px;
+    border: 1px solid black;
+    padding: 25px;
+    border-radius: 25px;
+    background-color: white
+}
+
+footer h2{
+    text-align: center
+}
+
+li{
+    text-align: center;
+    list-style: none;
+    padding: 10px;
+}
+
+
